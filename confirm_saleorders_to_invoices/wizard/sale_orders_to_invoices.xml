@@ -8,7 +8,7 @@
                 <footer>
                     <button name="create_invoices" string="Create invoices" type="object" class="oe_highlight"/>
                     or
-                    <button string="Cancel" class="oe_link" special="cancel" />
+                    <button string="Cancel" class="oe_link" special="cancel"/>
                 </footer>
             </form>
         </field>
@@ -20,18 +20,18 @@
         <field name="res_model">sale.orders.to.invoices.wizard</field>
         <field name="view_type">form</field>
         <field name="view_mode">form</field>
-        <field name="view_id" ref="view_saleoders_to_invoices" />
+        <field name="view_id" ref="view_saleoders_to_invoices"/>
         <field name="target">new</field>
         <field name="multi">True</field>
     </record>
 
-    <act_window id="saleorders_to_invoices"
-        name="Create invoices"
-        src_model="sale.order"
-        res_model="sale.orders.to.invoices.wizard"
-        view_type="form"
-        view_mode="form"
-        key2="client_action_multi"
-        target="new"/>
+<!--    <act_window id="saleorders_to_invoices"-->
+<!--        name="Create invoices"-->
+<!--        src_model="sale.order"-->
+<!--        res_model="sale.orders.to.invoices.wizard"-->
+<!--        view_type="form"-->
+<!--        view_mode="form"-->
+<!--        key2="client_action_multi"-->
+<!--        target="new"/>-->
 
 </odoo>
