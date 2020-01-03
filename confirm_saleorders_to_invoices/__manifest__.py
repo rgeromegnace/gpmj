@@ -11,7 +11,6 @@
     'version': '13.0.0.1.0',
     'depends': [
         'sale',
-        'invoice'
     ],
     'data': [
         'wizard/sale_orders_to_invoices.xml',
