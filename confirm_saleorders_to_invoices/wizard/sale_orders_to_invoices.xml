@@ -20,7 +20,7 @@
         <field name="view_mode">form</field>
         <field name="view_id" ref="view_saleoders_to_invoices"/>
         <field name="target">new</field>
-        <field name="multi">True</field>
+<!--        <field name="multi">True</field>-->
     </record>
 
 <!--    <act_window id="saleorders_to_invoices"-->
