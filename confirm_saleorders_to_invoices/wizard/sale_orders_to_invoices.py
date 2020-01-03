@@ -8,7 +8,6 @@ class SaleOrdersToInvoiceWizard(models.TransientModel):
     _name = "sale.orders.to.invoices.wizard"
     _description = "Wizard - Create invoices"
 
-    @api.multi
     def create_invoices(self):
         self.ensure_one()
         active_ids = self._context.get('active_ids')
