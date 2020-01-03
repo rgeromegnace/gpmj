@@ -6,7 +6,6 @@
             <form string="Create invoices">
                 <footer>
                     <button name="create_invoices" string="Create invoices" type="object" class="oe_highlight"/>
-                    or
                     <button string="Cancel" class="oe_link" special="cancel"/>
                 </footer>
             </form>
