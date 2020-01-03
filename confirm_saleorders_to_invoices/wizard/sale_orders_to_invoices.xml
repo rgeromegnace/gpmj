@@ -23,12 +23,12 @@
 <!--        <field name="multi">True</field>-->
     </record>
 
-<!--    <act_window id="saleorders_to_invoices"-->
-<!--        name="Create invoices"-->
-<!--        src_model="sale.order"-->
-<!--        res_model="sale.orders.to.invoices.wizard"-->
-<!--        view_type="form"-->
-<!--        view_mode="form"-->
-<!--        key2="client_action_multi"-->
-<!--        target="new"/>-->
+    <act_window
+        id="saleorders_to_invoices"
+        name="Create invoices"
+        binding_model="sale.order"
+        binding_view="form"
+        res_model="sale.orders.to.invoices.wizard"
+        view_mode="form"
+        target="new"/>
 </odoo>
