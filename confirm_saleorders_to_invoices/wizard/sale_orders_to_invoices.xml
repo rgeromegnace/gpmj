@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
     <record id="view_saleoders_to_invoices" model="ir.ui.view">
-        <field name="model">sale.orders.to.invoices.wizard</field>
+        <field name="model">sale.order.confirm.wizard</field>
         <field name="arch" type="xml">
             <form string="Create invoices">
                 <footer>
@@ -16,7 +16,7 @@
     <record id="action_saleorders_to_invoices" model="ir.actions.act_window">
         <field name="name">Create invoices</field>
         <field name="type">ir.actions.act_window</field>
-        <field name="res_model">sale.orders.to.invoices.wizard</field>
+        <field name="res_model">sale.order.confirm.wizard</field>
         <field name="view_mode">form</field>
         <field name="view_id" ref="view_saleoders_to_invoices"/>
         <field name="target">new</field>
